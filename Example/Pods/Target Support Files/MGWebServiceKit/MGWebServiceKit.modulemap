@@ -1,0 +1,6 @@
+framework module MGWebServiceKit {
+  umbrella header "MGWebServiceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

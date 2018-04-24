@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MGWebServiceKit_Example' do
+  pod 'MGWebServiceKit', :path => '../'
+
+  target 'MGWebServiceKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
